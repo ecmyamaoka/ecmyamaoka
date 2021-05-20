@@ -1,0 +1,31 @@
+{
+  "PluginName": "フリー html",
+  "form": {
+    "type": "object",
+    "title": " ",
+    "format": "grid",
+    "properties": {
+      "html": {
+        "title": "HTML",
+        "default": "",
+        "type": "string",
+        "format": "textarea",
+        "rows": "5"
+      },
+      "display": {
+        "title": "表示",
+        "type": "string",
+        "enum": [
+          "有効",
+          "無効"
+        ]
+      }
+    }
+  },
+  "sort": "1",
+  "debug": "off",
+  "preview": "on",
+  "description": "自由にHTMLを入力できます。",
+  "id": "freehtml",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfjCwsPBDHCO/efAAADWElEQVRo3u2ZXUgUURTHf5qtoShpURRWiCVEH1DQQ58QlhYrZkQPRQa+VA9qJNWDPgQFQRD0Ipkigj0U2opCGyGs+yIKGpGpaKb1EkRgIFt+5OftwUncdWfm3p2ZjcIzLzP3zLn/3945c+7dOxBssdznO8Li8YlsIrQrlsUXjily5QRjQq69uKnlcaT8AJRzFpjmHF714B4EhZbkoRbBvOwoxJqMSKT2jE5cNHJGFcAuC5BDJy4azBCcApBGcA5AEsFJACkEZwEkEJwGMEVwHmABoQsXDeHqQjQAIEC2VhfyQl1xDknmkRnSEgO4aCCL9mgApJEWtj2eMtxOA3gY1PHs5aIO2KL12jAZ6Vshgt7gpugkoYFFArCNDTqeFLY7D+BmkPc6cX4+qD5AVQA3jcQzzHxY7xCrqLGWQ8ZJeIpJBG9J1fG7eIlgnms6/jBJqAJgJm+OYAlARt4MwQKArLwxQsQAOfxC0MVaCXmANbxGMEeBXQB+BDNkSMoDpBJAMGAOIPca3mOSODysk5RP4AXJzHFHAdlwBOAYYwi6WS8l70Mwy6VlHktvgSyCvrzlOiCDkECrrrxlAHMEY3kbAOAEEwg6dbxNCGa5oBttw3rARx4TbNaJS2OWAp6rdKi+JPORwZTObHicFL6odRfJmvCbrmeMMdXO/skl2QrACsD/BRC6LdfLbsaZdkjNRSJ97FnaFK4QJZIYvREIB/CQFofUcrgpA9CPzyGALcub/noS6k1GSZQzTI12dYRc6nnH0eDdDaCMeW6wkQeMLradJItXtAFXSecuEypAfxYkmxD4F1tLERQA+Xjx0orgG168eInVYm4t3htDP4JSANoQQaunMAsStem4mWYgnc90hex3FfGIWQCy2anSpV05sJV87axYLdAugA6uA7CD03SoBBo9gl3Ua2eZpv1UUccB3lDCTxo4ZM8IzDCiHeOm/XgYoZgkLvNULeuNRuAjRdpZKYdN+pmijhK+kkw1B1UA7CtE1azmNu30qYXZBzCEnxiqVMPs3Ko9H/ZfQYtWH1i2XWEIME7lkh3f7qCrH1TSs+ReDx0IYFQrxwNUa/6moLonlZxR3ysOHQEB7Av6fXbafk3BwJ7Y9PFa/zD5Lp1IBQHHxANUkBAs+BuMyMrg3ayfyAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0xMS0xMVQxNTowNDo0OSswMDowMNdARfUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMTEtMTFUMTU6MDQ6NDkrMDA6MDCmHf1JAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAABJRU5ErkJggg=="
+}

@@ -1,0 +1,96 @@
+{
+  "PluginName": "バナー表示",
+  "form": {
+    "type": "object",
+    "title": " ",
+    "format": "grid",
+    "properties": {
+      "imgpath": {
+        "title": "画像ファイルURL",
+        "type": "string",
+        "options": {
+          "grid_columns": 12
+        }
+      },
+      "linkurl": {
+        "title": "リンクURL",
+        "type": "string",
+        "options": {
+          "grid_columns": 12
+        }
+      },
+      "bntype": {
+        "type": "string",
+        "title": "表示場所",
+        "enum": [
+          "通常",
+          "PCフローティング下部",
+          "SPフローティング下部",
+          "SP商品画像上部",
+          "SP商品画像下部"
+        ],
+        "options": {
+          "grid_columns": 12
+        }
+      },
+      "width": {
+        "title": "幅(数字または%で入力)",
+        "type": "string",
+        "options": {
+          "grid_columns": 6
+        }
+      },
+      "height": {
+        "title": "高さ(数字または%で入力)",
+        "type": "string"
+        ,
+        "options": {
+          "grid_columns": 6
+        }
+      },
+      "dateflg": {
+        "title": "日付指定",
+        "type": "boolean",
+        "format": "checkbox",
+        "options": {
+          "grid_columns": 2
+        }
+      },
+      "starttime": {
+        "title": "表示開始",
+        "type": "string",
+        "format": "datetime-local",
+        "options": {
+          "grid_columns": 6
+        }
+      },
+      "endtime": {
+        "title": "表示停止",
+        "type": "string",
+        "format": "datetime-local",
+        "options": {
+          "grid_columns": 6
+        }
+      },
+
+      "display": {
+        "title": "表示",
+        "type": "string",
+        "enum": [
+          "有効",
+          "無効"
+        ],
+        "options": {
+          "grid_columns": 6
+        }
+
+      }
+    }
+  },
+  "sort": "11",
+  "debug": "off",
+  "preview": "on",
+  "description": "PC用バナー表示ができます。",
+  "id": "singlebanner",
+  "icon": "data:image/png;base64,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"
+}

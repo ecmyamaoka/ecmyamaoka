@@ -1,0 +1,64 @@
+{
+  "PluginName": "SP項目選択肢別在庫画像表示",
+  "form": {
+    "type": "object",
+    "title": " ",
+    "format": "grid",
+    "properties": {
+      "images": {
+        "type": "array",
+        "format": "table",
+        "title": "選択肢在庫画像",
+        "uniqueItems": true,
+        "items": {
+          "type": "object",
+          "title": "画像",
+          "properties": {
+            "row": {
+              "title": "行",
+              "type": "string",
+              "format": "number",
+              "width": "50px"
+            },
+            "col": {
+              "title": "列",
+              "type": "string",
+              "format": "number"
+            },
+            "url": {
+              "title": "画像URL",
+              "type": "string"
+            }
+          }
+        },
+        "options": {
+          "grid_columns": 12
+        },
+        "default": [
+          {
+            "col": "",
+            "row": "",
+            "url": ""
+          }
+        ]
+      },
+      "display": {
+        "title": "表示",
+        "type": "string",
+        "enum": [
+          "有効",
+          "無効"
+        ],
+        "options": {
+          "grid_columns": 6
+        }
+      }
+    }
+  },
+  "sort": "41",
+  "debug": "off",
+  "preview": "off",
+  "description": "スマホ項目選択肢別在庫に画像表示ができます。",
+  "id": "selectinventory",
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAQAAAAAYLlVAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfjCw0OMwbOKMdPAAACoklEQVRo3u2ZT0gUURzHP1PTP9xDBKXIJrTRUiQUJEhorF0qLVI6VCTRpT+njIgK6dTFLl0MT50KjQ5eirx06X9GVAQbZEKo9GfXVEzISAqdDjs77pudGfY9cl6H+b3D/Ob3m93v5+3+5r2Z9yBvpxjBCqmNcDIva9jHBh4AU4RjK4EGnhSGLmPRFpI8nMWiI+eadug2MW6GBvAFiIkAHzgXmrxgi/TIFgPs5j5rdQLsZRe1OgFg/pbUBqDFTJ+4QTVLhcgoX22vjI0KSmN8lgE4WjQqzJJkCIDnbFEAmGMr70oHKAfSDDrndVSy2gYoB3ol5WupYo3MLwDQzVXHv0OzkDuEJQXQQ6t3QnsRRgDaAYKKcCeLHX+DK3dRsgg3ywL8AJpoEmIz9nEauKLQ2RmvoB9AD8tYLkRGSdveMXYoyE/wQgZgmk7fr+qnXwHAx7QXYQSgHcCvCLdzw5XLsJ/vAHSyT0FpjBa+lQ5QR9IVSZDkJQAHqVAASFDtBeD3FxjAeQyn3S36nCHVbvlxaa+BCEA7QNB0vIqE45e5cgnJ6TgmCzAHtNMuxKyC40eFznoi+wH00cIKIZLhve11cUBBfpy3MgCDAXN+R35141+Y9iKMALQD+L+cnnblsnQxC0AjKQWlca7xp3SAI1wqij3jDQDXiSt19jWPSwcwgW7uOecXqHGuNZF/O26j3lsraChOF6wCtFIj5HolAZqp905oL8IIQDtAUBGe4bDjr3flXknqrJMFGADiwv3+i4yTq2CbdFd/y60T9lHpeh6YdPZT9igNRFNMygBANqAvQwoAPqa9CCOACCAC+G8AfoLig5aKxcmttzK/U5biIQu1ef2JRrLAEh6xCchtXqd4Kl52guEF2qyfoAoAkwE7MszxvOxfxcHbY1OKONAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTktMTEtMTNUMTQ6NTE6MDYrMDA6MDBoCqAGAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE5LTExLTEzVDE0OjUxOjA2KzAwOjAwGVcYugAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII="
+}

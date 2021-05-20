@@ -1,0 +1,37 @@
+body {
+    font-size: 13px;
+}
+
+.tablefont{
+    font-size: 9px;
+}
+
+.line-height {
+    line-height: 35px;
+  }
+
+  .table-sm th, .table-sm td {
+    padding: 0.5rem;
+}
+
+.diff-td {
+    border-bottom: 1px #DEE2E6 solid !important;
+}
+
+.table-stripe-td{
+    background-color: #F2F2F2;
+}
+
+.col-md-2{
+    padding: 3px !important;
+
+}
+
+.sotag{
+    border: 1px solid #dee2e6;
+}
+
+h5 {
+    font-size: 1.0rem;
+    line-height: 1.5;
+}
